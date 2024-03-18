@@ -28,6 +28,7 @@ public class Main {
             System.out.println("7. Lowest grade here:");
             System.out.println("8. Update student here:");
             System.out.println("9. Remove student here:");
+            System.out.println("10. exit:");
             System.out.println("==========================================");
             System.out.print("Your choice here:");
             int choice = out.nextInt();
@@ -59,6 +60,8 @@ public class Main {
                 case 9:
                     removeStudent();
                     break;
+                case 10:
+                    return;
                 default:
                     break;
             }
