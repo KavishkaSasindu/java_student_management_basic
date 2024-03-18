@@ -26,6 +26,8 @@ public class Main {
             System.out.println("5. Sorted grade here:");
             System.out.println("6. Highest grade here:");
             System.out.println("7. Lowest grade here:");
+            System.out.println("8. Update student here:");
+            System.out.println("9. Remove student here:");
             System.out.println("==========================================");
             System.out.print("Your choice here:");
             int choice = out.nextInt();
